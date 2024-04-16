@@ -1,0 +1,16 @@
+.coffee-banner{
+    height: 20vh;
+}
+.Honey-products-heading{
+    font-family: cursive;
+    font-size: 35px;
+}
+/* .Container-card{
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    border-radius: 12px;
+} */
+.card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}

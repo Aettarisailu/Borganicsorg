@@ -1,0 +1,51 @@
+.user-feedback-container {
+    display: flex;
+    padding: 20px;
+    background-color:#e4e4e4;
+}
+
+.user-review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    width: 350px;
+    text-align: justify;
+    margin: 1rem;
+    text-overflow: ellipsis;
+    /* Adjust height as needed */
+    line-height: 1.5;
+    background-color: white;
+    padding: 0.6em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increased shadow effect for the image */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+.user-review{
+    overflow: hidden;
+
+}
+
+
+/*checking*/
+.user-feedback-container {
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent reviews from wrapping */
+}
+
+.user-review-card {
+    display: inline-block; /* Display reviews in a row */
+    margin-right: 20px; /* Adjust spacing between reviews */
+    animation: scrollReviews 15s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes scrollReviews {
+    0% {
+        transform: translateX(0); /* Start from initial position */
+    }
+    100% {
+        transform: translateX(calc(-100% - 20px)); /* Move to the left by review width + spacing */
+    }
+}
+
+

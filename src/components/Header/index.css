@@ -1,0 +1,171 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.container-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #596d56;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+.userlogin-navbar{
+  padding-left: 58px;
+  align-self: center;
+}
+.heading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+}
+.borgnanics-heading{
+  font-size:20px;
+}
+
+/* Base styles */
+.Borgani-logo {
+  width: 85px;
+  height: 85px;
+  font-family: "Roboto", sans-serif; /* Set default font */
+}
+
+
+
+.banner-heading {
+  color: white;
+  font-family: "Roboto", sans-serif; /* Set default font */
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto", sans-serif; /* Set default font */
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+.Shop-Categories{
+  color: white;
+  border-style: none;
+}
+.Shop-Categories:hover{
+  color: white;
+}
+
+.userlogin-navbar{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(225, 225, 225);
+  font-size: 20px;
+}
+.cart-icon{
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+/* Media Queries */
+
+/* Extra Small (Size < 576px) */
+@media (max-width: 575.98px) {
+  /* Update styles for extra small screens */
+  .heading-container{
+    display: none;
+  }
+  .Borgani-logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    color: white;
+  }
+}
+/* Small (Size >= 576px) */
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 14px;
+        color: white;
+      }
+      .heading-container{
+        display: none;
+      }
+}
+/* Medium (Size >= 768px) */
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 14px;
+        color: white;
+      }
+      
+}
+/* large (Size >= 992px) */
+@media (max-width: 992px) {
+  .heading-container{
+    display: none;
+  }
+  .nav-link {
+      font-size: 14px;
+      color: white;
+    }
+    
+}    
+.topleft-nav-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-toggler{
+  margin: 5px;
+}
+.login-text{
+  font-size: 15px;
+  color: white;
+  font-family: "Roboto";
+  margin: 1px;
+}
+
+.usericon{
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+.linkforlogin{
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+.loginusericon{
+  margin-bottom: -10px;
+}
+.linkforAddcart{
+  color: rgb(223, 223, 223);
+}

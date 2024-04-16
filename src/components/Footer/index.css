@@ -1,0 +1,84 @@
+.socialMedia{
+    color: white;
+    text-decoration: none;
+}
+.company-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.company-container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.socialMedia{
+    display: flex;
+    align-items: center;
+}
+.company-container{
+  display: flex;
+  align-items: center;
+}
+.logofooter {
+    width: 80px;
+}
+.footer-comapnay-name{
+  color: rgb(223, 223, 223);
+  font-size: 15px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+    width: 90%;
+
+}
+
+/*lll*/
+
+.bg-container {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px; 
+  background-color: #0e3500b6;
+  background-size: cover;
+} 
+.media {
+  display: flex;
+  background-color: #000204;  
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #a2a2a2;
+  text-decoration: none;
+}
+
+.headingfooter {
+  color: #a2a2a2;
+  font-size: 14px;
+}
+
+.heading2 {
+  color: #a2a2a2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.para {
+  text-decoration: none;
+  color: #a2a2a2;
+  font-size: 14px;
+}
+
+.hr-line {
+  background-color: #a2a2a2;
+  width: 90%;
+
+}
+.footer-section-mail-id{
+  text-decoration: none;
+}

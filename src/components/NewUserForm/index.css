@@ -1,0 +1,66 @@
+.NewUserForm-new-user-form {
+    background-color: #f9f9f9;
+    background-size: cover;
+    padding-top: 155px;
+}
+.NewUserForm-container{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NewUserForm-new-user-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.NewUserForm-form-group {
+    margin-bottom: 20px;
+}
+
+.NewUserForm-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.NewUserForm-form-group input[type="text"],
+.NewUserForm-form-group input[type="email"],
+.NewUserForm-form-group input[type="tel"],
+.NewUserForm-form-group input[type="password"],
+.NewUserForm-form-group textarea {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.NewUserForm-form-group textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0f931a;
+}

@@ -1,0 +1,15 @@
+.coffee-banner{
+    height: 20vh;
+}
+.coffee-products-heading{
+    font-family: cursive;
+    font-size: 35px;
+}
+/* .Container-card{
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    border-radius: 12px;
+} */
+.card{
+    background-color: rgb(255, 255, 255);
+}
