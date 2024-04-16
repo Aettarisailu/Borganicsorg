@@ -1,6 +1,5 @@
 .app {
     transition: background-image 1s ease-in-out;
-      /* background-color: rgb(219, 219, 219); */
       height: 100vh;
       display: flex;
       flex-direction: row;
@@ -60,11 +59,58 @@
 
 /*app-container*/
 
-.app-container{
-   
-}
 /*Products CSS */
 .Products-container{
     background-color: #e4e4e4;
     background-size: cover;
 }
+
+
+@media (max-width: 575.98px) {
+    /* Update styles for extra small screens */
+    .app {
+        /* Adjust background size for extra small screens */
+        width: 125px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Update styles for small screens */
+    .app {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Update styles for medium screens */
+    .app {
+        /* Define styles for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Update styles for large screens */
+    .app {
+        /* Define styles for large screens */
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    /* Update styles for extra small screens */
+   .app{
+    width: 100%;
+   }
+}
+  /* Small (Size >= 576px) */
+@media (max-width: 576px) {
+    
+}
+  /* Medium (Size >= 768px) */
+@media (min-width: 768px) {
+    
+}
+  /* large (Size >= 992px) */
+@media (max-width: 992px) {
+    
+}  

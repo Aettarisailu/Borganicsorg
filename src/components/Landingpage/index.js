@@ -10,9 +10,6 @@ import './index.css'; // Import the custom CSS file
 const Landingpage = ({ history }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
-        // "https://res.cloudinary.com/drevfgyks/image/upload/v1711383242/pexels-lisa-fotios-1031641_onnbgs.jpg",
-        // "https://res.cloudinary.com/drevfgyks/image/upload/v1711383241/pexels-caio-65550_vg0m3v.jpg",
-        // "https://res.cloudinary.com/drevfgyks/image/upload/v1712846293/8401420_j11508.jpg",
         "https://res.cloudinary.com/drevfgyks/image/upload/v1713029513/20240413_214115_v6le0r.jpg",
         "https://res.cloudinary.com/drevfgyks/image/upload/v1713029510/20240413_221453_psbljp.jpg",
         "https://res.cloudinary.com/drevfgyks/image/upload/v1713029511/20240413_225433_muklxx.jpg"
@@ -31,7 +28,7 @@ const Landingpage = ({ history }) => {
 
     return (
         <>
-            <div className='app' style={{ backgroundImage: `url(${images[currentImageIndex]})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className='app' style={{ backgroundImage: `url(${images[currentImageIndex]})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}/>
             <div className='app-container'>
                 <div>
                     <div className='Products-container'>

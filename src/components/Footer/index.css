@@ -9,6 +9,10 @@
   align-items: center;
   text-align: center;
 }
+.whatsapp-icon{
+  color: white;
+  cursor: pointer;
+}
 .company-container2{
   display: flex;
   flex-direction: column;

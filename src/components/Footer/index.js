@@ -5,10 +5,11 @@ import {  Link } from "react-router-dom";
 import './index.css'
 
 const handleWhatsappRedirect = () => {
-    const phoneNumber = '+919962754292'; // Replace with the desired phone number
-    const message = encodeURIComponent("Hello, I'm interested in your product.");
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
-    window.open(whatsappUrl, '_blank');
+    const whatsappNumber = '9962754292'; // Replace with your WhatsApp number
+    const message = encodeURIComponent('Hello! I have a question.');
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+    window.location.href = whatsappUrl;
+    // window.open(whatsappUrl, '_blank');
 };
 
 const Footer = () =>{
@@ -35,7 +36,7 @@ const Footer = () =>{
                             </a>
                         </div>
                         <div class="media pb-2 pt-2" onClick={handleWhatsappRedirect}>
-                            <FontAwesomeIcon icon={faWhatsapp} />
+                            <FontAwesomeIcon icon={faWhatsapp} className="whatsapp-icon"/>
                         </div>
                         <div class="media pb-2 pt-2">
                             <a href="mailto:info@borganics.in" target="_blank" rel="noopener noreferrer" className='socialMedia'>
@@ -67,16 +68,16 @@ const Footer = () =>{
                         </div>
                         <div class="col-6 col-md-6 col-lg-3 order-2 order-lg-3 pt-5 products-container">
                             <h1 class="heading2 pb-3 pt-3">We promise you</h1>
-                            <p class="para">100% Quality Product</p>
-                            <p class="para">Protect Your Details</p>
+                            <Link to="/qualityproduct"><p class="para">100% Quality Product</p></Link>
+                            <Link to="/protectyourdetails"><p class="para">Protect Your Details</p></Link>
                         </div>
                         <div class="col-6 col-md-6 col-lg-3 order-2 order-lg-3 pt-5 products-container">
                             <h1 class="heading2 pb-3 pt-3">Information</h1>
-                            <p class="para">Terms and conditions</p>
-                            <p class="para">Privacy policy</p>
-                            <p class="para">Cancellation policy</p>
-                            <p class="para">FSSAI licence</p>
-                            <p class="para">Shipping policy</p>
+                            <Link to="/termsandconditions"><p class="para">Terms and conditions</p></Link>
+                            <Link to="/privacypolicy"><p class="para">Privacy policy</p></Link>
+                            <Link to="/cancellationpolicy"><p class="para">Cancellation policy</p></Link>
+                            <Link to="/fssailicense"><p class="para">FSSAI licence</p></Link>
+                            <Link to="/shippingpolicy"><p class="para">Shipping policy</p></Link>
                         </div>                      
                 </div>
         </div>

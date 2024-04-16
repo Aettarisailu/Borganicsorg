@@ -9,7 +9,14 @@ import OrderForm from './components/OrderForm'
 import Confimedorder from './components/Confimedorder'
 import HoneyProducts from './components/HoneyProducts'
 import CoffeeProducts from './components/CoffeeProducts'
+import Termsandconditions from './components/Termsandconditions'
 import Addcart from './components/Addcart'
+import PrivacyPolicy from './components/PrivacyPolicy'
+import ShippingPolicy from './components/ShippingPolicy'
+import CancellationPolicy from './components/CancellationPolicy'
+import QualityProduct from './components/QualityProduct'
+import ProtectYourDetails from './components/ProtectYourDetails'
+import FSSAILicense from './components/FSSAILicense'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
@@ -30,6 +37,13 @@ function App() {
         <Route path="/HoneyProducts" element={<HoneyProducts/>}></Route>
         <Route path="/CoffeeProducts" element={<CoffeeProducts/>}></Route>
         <Route path="/ordersummary" element={<OrderSummary />}></Route>
+        <Route path="/termsandconditions" element={<Termsandconditions />}></Route>
+        <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
+        <Route path="/shippingpolicy" element={<ShippingPolicy />}></Route>
+        <Route path="/cancellationpolicy" element={<CancellationPolicy />}></Route>
+        <Route path="/qualityproduct" element={<QualityProduct />}></Route>
+        <Route path="/protectyourdetails" element={<ProtectYourDetails />}></Route>
+        <Route path="/fssailicense" element={<FSSAILicense />}></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,29 @@
+/* ProtectYourDetails.css */
+
+.protect-details-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.protect-details-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.protect-details-h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.protect-details-h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+.protect-details-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 20px;
+}

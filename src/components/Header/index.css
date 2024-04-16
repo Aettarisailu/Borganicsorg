@@ -86,6 +86,10 @@
   font-size: 30px;
   margin-left: 25px;
 }
+.nav-link :hover{
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
 
 /* Media Queries */
 

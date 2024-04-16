@@ -35,6 +35,9 @@ const Header = () => {
                 <div>
                     <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`}>
                         <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link to='/' className="nav-link">Home</Link>
+                            </li>
                             <li className="nav-item dropdown Shop-Categories">
                                 <button className="btn dropdown-toggle Shop-Categories" data-bs-toggle="dropdown" aria-expanded="false">
                                     Shop Categories
