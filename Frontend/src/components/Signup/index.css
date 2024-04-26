@@ -1,0 +1,76 @@
+.NewUserForm-new-user-form {
+    background-color: #f9f9f9;
+    background-size: cover;
+    padding-top: 50px; /* Adjusted padding for better alignment */
+    min-height: 100vh; /* Ensures the form takes up the full height of the viewport */
+}
+.Signup-heading{
+    margin-top: 420PX;
+}
+.NewUserForm-container {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+.NewUserForm-new-user-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.NewUserForm-form-group {
+    margin-bottom: 20px;
+}
+
+.NewUserForm-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.NewUserForm-form-group input[type="text"],
+.NewUserForm-form-group input[type="email"],
+.NewUserForm-form-group input[type="tel"],
+.NewUserForm-form-group input[type="password"],
+.NewUserForm-form-group textarea {
+    width: 100%; /* Adjusted input width to fill the container */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; /* Added smooth transition for better UX */
+}
+
+.NewUserForm-form-group textarea {
+    height: 100px;
+}
+
+.NewUserForm-form-group input[type="text"]:focus,
+.NewUserForm-form-group input[type="email"]:focus,
+.NewUserForm-form-group input[type="tel"]:focus,
+.NewUserForm-form-group input[type="password"]:focus,
+.NewUserForm-form-group textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+}
+
+button[type="submit"] {
+    width: 100%; /* Adjusted button width to fill the container */
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added smooth transition for better UX */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

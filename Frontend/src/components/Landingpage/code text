@@ -1,0 +1,20 @@
+<!-- {/* <div className="container-fluid mb-5"> Use container-fluid for full-width container start carousel
+                        <div className="carousel-container">
+                            <div className="">                                
+                                <div className="carousel slide" data-bs-ride="carousel">
+                                    <div className="carousel-inner" >
+                                        <div className="carousel-item active">
+                                            <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712846692/4175687_e359dz.jpg" className="d-block w-100" alt="..." />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712846724/7879154_tum8wn.jpg" className="d-block w-100" alt="..." />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src="https://res.cloudinary.com/drevfgyks/image/upload/v1712846293/8401420_j11508.jpg" className="d-block w-100" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                    </div>
+                </div>
+End carousel */} -->

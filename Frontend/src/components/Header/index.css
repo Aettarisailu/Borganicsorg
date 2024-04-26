@@ -7,7 +7,7 @@
   text-align: center;
   background-color: #596d56;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  
+  width: 100vw;
 }
 .userlogin-navbar{
   padding-left: 58px;

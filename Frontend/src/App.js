@@ -1,8 +1,9 @@
 import Landingpage from './components/Landingpage';
 import Header from './components/Header';
-import Honeyproduct from './components/Honeyproduct'; // Corrected import path
-import UserLogin from "./components/UserLogin";
-import NewUserForm from './components/NewUserForm'
+import HoneyBuypage from './components/HoneyBuypage';
+import ContactUs from './components/ContactUs'
+// import UserLogin from "./components/UserLogin";
+import Signup  from './components/Signup'
 import NotFound from './components/NotFound';
 import OrderSummary from './components/OrderSummary'
 import OrderForm from './components/OrderForm'
@@ -18,20 +19,23 @@ import QualityProduct from './components/QualityProduct'
 import ProtectYourDetails from './components/ProtectYourDetails'
 import FSSAILicense from './components/FSSAILicense'
 import AboutUs from './components/Aboutus'
+import Checkoutpage from './components/Checkoutpage'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Footer from './components/Footer';
 
-function App() {
+
+
+function App(props) {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Landingpage />} />
-        <Route path="/honeproduct" element={<Honeyproduct />} />
-        <Route path="/login" element={<UserLogin />} />
+        <Route path="/honeybuypage" element={<HoneyBuypage />} />
+        {/* <Route path="/login" element={<UserLogin />} /> */}
         <Route path="/Addcart" element={<Addcart />}></Route>
-        <Route path="/newuserform" element ={<NewUserForm/>}></Route>
+        <Route path="/contactus" element={<ContactUs />}></Route>
+        <Route path="/signup" element ={<Signup/>}></Route>
         <Route path="/notfound" element ={<NotFound/>}></Route>
         <Route path="/OrderForm" element={<OrderForm />}></Route>
         <Route path="/Confimedorder" element={<Confimedorder />}></Route>
@@ -46,6 +50,8 @@ function App() {
         <Route path="/protectyourdetails" element={<ProtectYourDetails />}></Route>
         <Route path="/fssailicense" element={<FSSAILicense />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
+        {/* <Route path="/checkoutpage" element={<Checkoutpage />}></Route> */}
+        <Route path="/checkoutpage" element={<Checkoutpage location={props.location} />} />
       </Routes>
     </BrowserRouter>
   );

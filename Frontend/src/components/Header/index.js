@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCartPlus,faUser} from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
@@ -7,6 +7,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './index.css';
 
 const Header = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
     const handleNavbarToggle = () => {
@@ -15,6 +18,7 @@ const Header = () => {
 
     return (
         <>
+            <div className='container-fluid w-75'>
             <nav className="navbar container-nav navbar-expand-lg navbar-light fixed-top">                 
                 <div className='heading-container'>
                     <Link to='/' className='heading-container'>
@@ -50,10 +54,10 @@ const Header = () => {
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link to='Menu' className="nav-link">Contact</Link>
+                                <Link to='/contactus' className="nav-link">Contact</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='aboutus' className="nav-link">About Us</Link>
+                                <Link to='/aboutus' className="nav-link">About Us</Link>
                             </li>
                             {/* Add your other navigation items here */}
                         </ul>
@@ -61,17 +65,18 @@ const Header = () => {
                 </div>                    
                     <div className='userlogin-navbar'>
                         <div className='usericon'>
-                        <Link to="/login" className='linkforlogin'>
+                        {/* <Link to="/login" className='linkforlogin'>
                             <div className='loginusericon'>
                                 <FontAwesomeIcon icon={faUser} />
                             </div>
                             <p className='login-text'>Login</p> 
-                        </Link>
+                        </Link> */}
                             
                         </div>                                                  
                             <Link to="/Addcart" className='linkforAddcart'><FontAwesomeIcon className="cart-icon" icon={faCartPlus} /></Link>
-                    </div>                   
+                    </div>                 
             </nav>
+            </div>
         </>
     );
 };

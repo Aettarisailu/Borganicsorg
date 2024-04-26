@@ -2,11 +2,13 @@
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faTruck,faCircleCheck,faRotate,faClipboardList} from '@fortawesome/free-solid-svg-icons';
 import {faPagelines, } from '@fortawesome/free-brands-svg-icons';
-import {  Link } from "react-router-dom";
-import React from 'react';
+import  {useEffect} from 'react';
 import './AboutUs.css'; // Import CSS file for styling
 
 const AboutUs = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="about-us-container">
             <div className="about-us-section">

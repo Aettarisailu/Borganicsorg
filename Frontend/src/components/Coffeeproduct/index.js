@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import './index.css'
 import {  Link } from "react-router-dom";
 
 const HoneyBuypage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="honeybuypage-container">
 

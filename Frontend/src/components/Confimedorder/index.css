@@ -1,5 +1,6 @@
 /* index.css */
 
+/* Common styles for all devices */
 .right-tick-container {
     text-align: center;
     margin: 250px;
@@ -8,6 +9,7 @@
 .right-tick {
     width: 100px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
+    animation: spin 2s linear infinite; /* Add animation */
 }
 
 .orderconform {
@@ -16,3 +18,24 @@
     color: #333; /* Adjust color as needed */
     margin-top: 20px;
 }
+
+/* Define animation keyframes */
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .right-tick-container {
+        margin: 100px;
+    }
+
+    .right-tick {
+        width: 70px; /* Adjust width as needed */
+    }
+
+    .orderconform {
+        font-size: 14px;
+    }
+}
+
+
+

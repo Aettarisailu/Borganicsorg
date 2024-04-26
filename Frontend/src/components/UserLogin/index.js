@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Landingpage from '../Landingpage';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const UserLogin = () => {
@@ -61,9 +62,10 @@ const UserLogin = () => {
             <div className="or-divider">
                 <p>OR</p>
             </div>
-            <p className="create-account">Create New Account</p>
+            <Link to="/signup"><p className="create-account">Create New Account</p></Link>
         </div>
     );
 };
 
 export default UserLogin;
+

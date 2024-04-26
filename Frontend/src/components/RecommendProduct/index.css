@@ -1,0 +1,192 @@
+/*Recomend styles*/
+
+.recomend-product-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.recomend-product-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recomend-product-details {
+    padding: 10px 0;
+}
+
+.recomend-product-name {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.recomend-product-price {
+    font-size: 1em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.recomend-product-size {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.recomend-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomend-add-to-cart-button,
+.recomend-buy-now-button {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recomend-add-to-cart-button:hover,
+.recomend-buy-now-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.menu-section-heading {
+    text-align: center;
+}
+
+.explore-menu-section2 {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    padding: 20px 0;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hrClass{
+    margin-top: 120px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .recomend-product-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        width: 80%; /* Adjust width if needed */
+    }
+}
+
+
+
+.Honey-product-container {
+    background-color: #729b5f82;
+    background-size: cover;
+    width: 100%;
+}
+
+.product-bottle {
+    background-color: white;
+    border-radius: 8px;
+    width: 350px;
+    margin-top: 100px;
+}
+
+.Honey-product {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card-container {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.preview-product-img {
+    height: 7em;
+    width: 7em;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.preview-product-img:hover {
+    border-style: solid;
+    color: rgb(71, 71, 218);
+    border-width: 0.5px;
+}
+
+.main-product-img {
+    height: 20em;
+}
+
+.name-for-product {
+    font-size: 2em;
+}
+
+.prodcut-size-card {
+    display: flex;
+    gap: 1.5em;
+}
+
+.prodcut-size {
+    border-style: solid;
+    border-color: rgb(95, 95, 228);
+    border-width: 0.5px;
+    padding: 0.5em;
+}
+
+.prodcut-size:hover {
+    scale: 1.1;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.add-to-cart-btn,
+.buy-now-btn {
+    margin: 1em;
+    background-color: rgb(238, 165, 29);
+    width: 12em;
+    border-style: none;
+    padding: 1em;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 13px 27px 0 rgb(93, 84, 53);
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover,
+.buy-now-btn:hover {
+    border-color: blue;
+    scale: 1.1;
+}
